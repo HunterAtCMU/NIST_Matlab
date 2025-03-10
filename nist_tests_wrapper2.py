@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Complete wrapper for NIST randomness tests suite.
-This wrapper is configured to work with the exact file and class structure provided.
 """
 
 import sys
@@ -13,7 +12,7 @@ import numpy as np
 import argparse
 
 def import_module_from_file(file_path):
-    """Import a module from file path using a direct approach"""
+    """Import a module from file path"""
     try:
         # Basic file existence check
         if not os.path.exists(file_path):
@@ -217,7 +216,7 @@ def run_selected_tests(input_file, bit_length, selected_tests, offset=0):
                                 print(f"Available methods in {class_name}: {[m for m in dir(getattr(module, class_name)) if not m.startswith('_')]}")
                             continue
                     else:
-                        # Direct function call (original approach)
+                        # Direct function call
                         if not hasattr(module, function_name):
                             print(f"Error: Function {function_name} not found in module {test_name}.")
                             # List available functions in the module
