@@ -40,3 +40,13 @@ The app accepts multiple file types, but I recommend using a .txt file as the in
 4: Scroll through the "Debug Output" to verify that the tests were all imported properly.
 
 5: Save the values either by selecting "Save Results" or copying from the Matlab terminal.
+
+## To Do:
+
+- There are a few things which will be updated in future versions. First, it would be nice to automatically produce tables with p-value averaging and error bars from multiple runs. This is currently done manually with the raw test output.
+
+- There should be tunable test parameters within the GUI. Currently, these need to be set manually within the Python wrapper file.
+
+- Command line usage is possible, but the details are within the GUI script and the Python wrapper comments. This needs to be updated with command line options for file saving, test options, and data segmentation.
+
+- The data converter should be implemented in Matlab rather than Python.
