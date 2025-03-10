@@ -50,3 +50,5 @@ The app accepts multiple file types, but I recommend using a .txt file as the in
 - Command line usage is possible, but the details are within the GUI script and the Python wrapper comments. This needs to be updated with command line options for file saving, test options, and data segmentation.
 
 - The data converter should be implemented in Matlab rather than Python.
+
+- Some of the tests return -1 or 1 if the input length is not long enough and there should be special handling for this (currently this is implemented for the Universal test only).
