@@ -1,6 +1,4 @@
 function NIST_Tests_GUI
-    % Create a GUI for running NIST randomness tests with improved design
-    % Simple approach with fixed window size and all tests visible without scrolling
     
     % Define colors
     bgColor = [0.15, 0.15, 0.3]; % Dark blue background
@@ -156,7 +154,7 @@ function NIST_Tests_GUI
                             'HorizontalAlignment', 'center');
     end
     
-    % Select All / Deselect All buttons - moved to the left side
+    % Select All / Deselect All buttons
     uicontrol(testsPanel, 'Style', 'pushbutton', ...
              'String', 'Select All', ...
              'Position', [650, 360, 100, 25], ...
