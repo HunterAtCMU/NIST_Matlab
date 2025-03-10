@@ -3,6 +3,9 @@ A Matlab Port of the NIST Randomness Tests
 
 This work implements a Matlab GUI and Python wrapper for the Python NIST randomness tests by stevenang (Available: https://github.com/stevenang/randomness_testsuite/tree/master).
 
+![pixel_1](https://github.com/user-attachments/assets/08dfc1cb-7141-44db-a0bb-32b3d657536c)
+
+
 ## Directory Setup
 
 1: Clone this entire repository.
