@@ -26,7 +26,7 @@ This is more straightforward if you setup the Python environment before opening 
 
 5: Run the script called "NIST_Tests_GUI2.m" and the app should pop up.
 
-6: Click on the "Verify Setup" button to double check the setup.
+6: Click on the "Verify Setup" button to double check the setup. It is only necessary to input a Python path in the text box if you have not yet setup the environment from the command line.
 
 7: If the setup fails, run the script "fixPythonDependencies.m" -- it will search for valid Python installations and help you to finish the setup (may require a Matlab restart).
 
